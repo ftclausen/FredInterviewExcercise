@@ -23,7 +23,7 @@ public class HorizontalLine implements Line {
 					sb.append("=");
 					break;
 				}
-				// If we reach the end of the string then don't print a trailling space
+				// If we reach the end of the string then don't print a trailing space
 				if (i + 1 == length) { 
 					sb.append("="); // Avoid spurious whitespace
 					segmentsPrinted += 1;
@@ -33,7 +33,7 @@ public class HorizontalLine implements Line {
 				}
 			} else {
 				// Only print if we have not yet reached the end of
-				// "normal" non-lefover segments
+				// "normal" non-leftover segments
 				if (segments != segmentsPrinted) {
 					sb.append("=");
 				}
