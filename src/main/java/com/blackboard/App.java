@@ -8,7 +8,7 @@ public class App {
 	
 	public static void drawMyLine(Line l) {
 		l.setLength(10);
-		l.split(1);
+		l.split(2);
 		System.out.println(l.toString());
 	}
 
