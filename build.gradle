@@ -1,0 +1,16 @@
+repositories {
+  mavenCentral()
+}
+
+apply plugin: 'java'
+
+dependencies {
+  testCompile 'junit:junit:4.8.1'
+}
+
+test {
+  reports {
+    junitXml.enabled = true
+    html.enabled = true
+  }
+}
